@@ -2,9 +2,8 @@ import React from 'react';
 import './ItemCard.css'
 
 const ItemCard = (props) => {
-  const addToList=(id)=>{
-    console.log(id)
-  }
+  
+  // const {img,title,forAge,time} = props.ItemCard;
     return (
         <div>
             <div className="flex justify-center">
@@ -19,7 +18,7 @@ const ItemCard = (props) => {
       </p>
       <p className='text-sm mb-2 font-semibold'>For age: {props.forAge}</p>
       <p className='text-sm mb-3 font-semibold'>Time Required: {props.time}</p>
-      <button onClick={()=>addToList(props.id)} type="button" className="w-full px-6 py-2.5 bg-indigo-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Add to list</button>
+      <button onClick={()=>props.addToList(props.time)} type="button" className="w-full px-6 py-2.5 bg-indigo-500 text-white font-medium text-xs leading-tight uppercase rounded shadow-md hover:bg-blue-700 hover:shadow-lg focus:bg-blue-700 focus:shadow-lg focus:outline-none focus:ring-0 active:bg-blue-800 active:shadow-lg transition duration-150 ease-in-out">Add to list</button>
     </div>
   </div>
 </div>

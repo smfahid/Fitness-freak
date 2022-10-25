@@ -1,7 +1,7 @@
 import React, { useEffect,useState } from 'react';
 import ItemCard from './ItemCard';
 
-const Exercise = () => {
+const Exercise = (props) => {
      const [item,setItem] = useState([]);
     useEffect(()=>{
         fetch('db.json')
@@ -16,7 +16,7 @@ const Exercise = () => {
         <div className="grid grid-cols-3 gap-1 gap-y-4">
             
             {item.map(
-                items=><ItemCard key ={items.id} title={items.title} img ={items.img} details ={items.details} forAge={items.age} time={items.Time} ></ItemCard> 
+                items=><ItemCard key ={items.img} id={items.id} addToList={props.addToList} title={items.title} img ={items.img} details ={items.details} forAge={items.age} time={items.Time} ></ItemCard> 
             )}  
             
         </div>
