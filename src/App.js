@@ -30,7 +30,7 @@ function App() {
       <div>
         <div className='bg-white mr-3 rounded h-full'>
           <CartSection></CartSection>
-          <Break timeHandler={()=>addBreakTime}></Break>
+          <Break timeHandler={addBreakTime}></Break>
           <ExerciseDetails time ={exTime}></ExerciseDetails>
         </div>
       </div>
