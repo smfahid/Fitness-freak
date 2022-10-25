@@ -1,0 +1,74 @@
+[{
+        "id": "1",
+        "img": "image/dumbel-row.jpg",
+        "title": "Dumble Row",
+        "details": "That is an exercise for biceps.",
+        "age": "20-25",
+        "Time": "30s"
+    },
+    {
+        "id": "2",
+        "img": "image/leg-press.jpg",
+        "title": "Leg Press",
+        "details": "That is an exercise for Legs.",
+        "age": "20-25",
+        "Time": "30s"
+    },
+    {
+        "id": "3",
+        "img": "image/shoulder-press.jpg",
+        "title": "Shoulder Press",
+        "details": "That is an exercise for Shoulder.",
+        "age": "20-25",
+        "Time": "30s"
+    },
+    {
+        "id": "4",
+        "img": "image/dead-lift.jpg",
+        "title": "Dead Lift",
+        "details": "That is an exercise for Shoulder.",
+        "age": "20-25",
+        "Time": "30s"
+    },
+    {
+        "id": "5",
+        "img": "image/berbel-bicep.jpg",
+        "title": "Barbell Bicep",
+        "details": "That is an exercise for Bycep.",
+        "age": "20-25",
+        "Time": "30s"
+    },
+    {
+        "id": "6",
+        "img": "image/Lat-pull-down.jpg",
+        "title": "Lat Pull Down",
+        "details": "That is an exercise for Chest.",
+        "age": "20-25",
+        "Time": "30s"
+    },
+    {
+        "id": "7",
+        "img": "image/squat.jpg",
+        "title": "Squat",
+        "details": "That is an exercise for Leg.",
+        "age": "20-25",
+        "Time": "30s"
+    },
+    {
+        "id": "8",
+        "img": "image/cross-over.jpg",
+        "title": "Cross Over",
+        "details": "That is an exercise for Chest.",
+        "age": "20-25",
+        "Time": "30s"
+    },
+    {
+        "id": "9",
+        "img": "image/sorted-chest-press.jpg",
+        "title": "Sorted Chest Press",
+        "details": "That is an exercise for Chest.",
+        "age": "20-25",
+        "Time": "30s"
+    }
+
+]
