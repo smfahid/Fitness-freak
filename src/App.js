@@ -12,14 +12,20 @@ function App() {
   const [breakTime,setbreakTime] = useState(0);
 
   const addToList=(time)=>{
+    
     const itemTime = parseInt(time);
     setexTime(exTime+itemTime);
     console.log(exTime);
   }
 
   const addBreakTime=(btime)=>{
+    addToStorage(btime)
     setbreakTime(btime);
     console.log(btime)
+  }
+
+  const addToStorage = (time)=>{
+    localStorage.setItem('clicked',time);
   }
   return (
     <div className="container mx-auto py-4 parent-1 bg-ligh bg-slate-50">
