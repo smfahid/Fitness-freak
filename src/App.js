@@ -9,6 +9,7 @@ import ExerciseDetails from './components/ExerciseDetails';
 function App() {
 
   const [exTime,setexTime] = useState(0);
+  const [breakTime,setbreakTime] = useState(0);
 
   const addToList=(time)=>{
     const itemTime = parseInt(time);
@@ -17,6 +18,7 @@ function App() {
   }
 
   const addBreakTime=(btime)=>{
+    setbreakTime(btime);
     console.log(btime)
   }
   return (
@@ -31,7 +33,7 @@ function App() {
         <div className='bg-white mr-3 rounded h-full'>
           <CartSection></CartSection>
           <Break timeHandler={addBreakTime}></Break>
-          <ExerciseDetails time ={exTime}></ExerciseDetails>
+          <ExerciseDetails time ={exTime} btime={breakTime}></ExerciseDetails>
         </div>
       </div>
     </div>
