@@ -13,7 +13,7 @@ const Exercise = (props) => {
         });
     },[])
     return (
-        <div className="grid grid-cols-3 gap-1 gap-y-4">
+        <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-1 gap-y-4">
             
             {item.map(
                 items=><ItemCard key ={items.img} id={items.id} addToList={props.addToList} title={items.title} img ={items.img} details ={items.details} forAge={items.age} time={items.Time} ></ItemCard> 
