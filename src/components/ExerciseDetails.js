@@ -4,7 +4,7 @@ import { ToastContainer, toast } from 'react-toastify';
 
 const ExerciseDetails = (props) => {
     const activity =()=>{
-        console.log('clicked')
+        // console.log('clicked')
         toast.success("Congratulation! Activity Completed Successfully.",{
             position:"top-center",
 

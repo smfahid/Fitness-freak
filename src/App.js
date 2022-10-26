@@ -1,6 +1,7 @@
 // import logo from './logo.svg';
 import { useState } from 'react';
 import './App.css';
+import Article from './components/Article';
 import Break from './components/Break';
 import CartSection from './components/CartSection';
 import Exercise from './components/Exercise';
@@ -41,6 +42,9 @@ function App() {
           <Break timeHandler={addBreakTime}></Break>
           <ExerciseDetails time ={exTime} btime={breakTime}></ExerciseDetails>
         </div>
+      </div>
+      <div className='my-5 px-4'>
+      <Article></Article>
       </div>
     </div>
   );
